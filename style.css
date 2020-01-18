@@ -1,21 +1,20 @@
-nav {
-    border-bottom: 1px solid black;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
 }
 
-.crumbs ol {
-    list-style-type: none;
-    padding-left: 0;
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
-.crumb {
-    display: inline-block;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
 }
